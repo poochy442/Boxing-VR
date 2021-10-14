@@ -1,39 +1,798 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16323 MB
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 6017 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
- COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Bruger/Documents/GitHub/Boxing-VR/Boxing VR
+C:/Users/kenne/Documents/GitHub/Boxing-VR/Boxing VR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52184
-Successfully changed project path to: C:/Users/Bruger/Documents/GitHub/Boxing-VR/Boxing VR
-C:/Users/Bruger/Documents/GitHub/Boxing-VR/Boxing VR
+52134
+Successfully changed project path to: C:/Users/kenne/Documents/GitHub/Boxing-VR/Boxing VR
+C:/Users/kenne/Documents/GitHub/Boxing-VR/Boxing VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 362.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.16f1 (049d6eca3c44)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Bruger/Documents/GitHub/Boxing-VR/Boxing VR/Assets
+Refreshing native plugins compatible for Editor in 110.75 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.58 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kenne/Documents/GitHub/Boxing-VR/Boxing VR/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
     Vendor:   
-    VRAM:     4018 MB
-    Driver:   27.21.14.5751
+    VRAM:     2018 MB
+    Driver:   21.21.13.7654
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004398 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 94.15 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.847 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4847ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (958ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (389ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014764 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 104.74 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenne\Documents\GitHub\Boxing-VR\Boxing VR\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenne\Documents\GitHub\Boxing-VR\Boxing VR\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.305 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3306ms)
+		BeginReloadAssembly (373ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (2677ms)
+			LoadAssemblies (259ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (792ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (148ms)
+			SetupLoadedEditorAssemblies (1172ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (845ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.8 MB.
+System memory in use after: 97.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2644.
+Total: 6.102400 ms (FindLiveObjects: 0.364700 ms CreateObjectMapping: 0.164300 ms MarkObjects: 5.449700 ms  DeleteObjects: 0.121700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Packages/com.unity.xr.interaction.toolkit/Editor/Unity.XR.Interaction.Toolkit.Editor.asmdef
+  artifactKey: Guid(190979c3ed6e41c448f5e9925429edf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Editor/Unity.XR.Interaction.Toolkit.Editor.asmdef using Guid(190979c3ed6e41c448f5e9925429edf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2053a856921d53a9cbd6fa575009c20') in 0.063011 seconds 
+  Import took 0.070989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Editor/Interaction
+  artifactKey: Guid(de2bd82cd68711d43b609643e5e06857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Editor/Interaction using Guid(de2bd82cd68711d43b609643e5e06857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99e6a08296858608cc0bd874faa34f6') in 0.026484 seconds 
+  Import took 0.034523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit
+  artifactKey: Guid(606b3fa0257ef2bbfc46aa049a55bc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit using Guid(606b3fa0257ef2bbfc46aa049a55bc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d4af18f4d41da021eca9b33dc6b659') in 0.025934 seconds 
+  Import took 0.034122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/package.json
+  artifactKey: Guid(fac9fb4ad804244e0911f21e340a3d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/package.json using Guid(fac9fb4ad804244e0911f21e340a3d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79ca54627200274369dc9f52f9e74dc') in 0.061605 seconds 
+  Import took 0.076327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Editor/XR
+  artifactKey: Guid(04ae37a6c4a63a249b01e86bac1b68b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Editor/XR using Guid(04ae37a6c4a63a249b01e86bac1b68b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e74e7d191952e4464600dc384e2abee') in 0.012348 seconds 
+  Import took 0.021478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Editor
+  artifactKey: Guid(08757b89960994492baa89d8001801e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Editor using Guid(08757b89960994492baa89d8001801e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9a8384bdb3399d20f18b7c10d5aca2') in 0.016913 seconds 
+  Import took 0.027174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.892508 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Editor/Interaction/Controllers
+  artifactKey: Guid(09204bb9ca1545e4aa9bbb483e9ed1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Editor/Interaction/Controllers using Guid(09204bb9ca1545e4aa9bbb483e9ed1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14f39c81915d49063add04cf7602ffe') in 0.013020 seconds 
+  Import took 0.020623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.033677 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Runtime
+  artifactKey: Guid(be48be1b1a8d842c5b1a7f0dc9a13977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Runtime using Guid(be48be1b1a8d842c5b1a7f0dc9a13977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460695dcad171207d77819512a60eb5c') in 0.014113 seconds 
+  Import took 0.025267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033035 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Runtime/Unity.XR.Interaction.Toolkit.asmdef
+  artifactKey: Guid(fe685ec1767f73d42b749ea8045bfe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Runtime/Unity.XR.Interaction.Toolkit.asmdef using Guid(fe685ec1767f73d42b749ea8045bfe43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61fa4f839e7f99d6ac1bf750569039f') in 0.014837 seconds 
+  Import took 0.030770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.703690 seconds.
+  path: Packages/com.unity.xr.interaction.toolkit/Runtime/XR
+  artifactKey: Guid(43f6b5ae7ec1a4641b1d61cbbab95a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.interaction.toolkit/Runtime/XR using Guid(43f6b5ae7ec1a4641b1d61cbbab95a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4484908d9b15a3680ff0c68e47f7aa') in 0.005129 seconds 
+  Import took 0.017133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.969262 seconds.
+  path: Assets/XR
+  artifactKey: Guid(962b21e07e0e92d4c9630da143633d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(962b21e07e0e92d4c9630da143633d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb59fe53c8fe9bfbf0e298889723f5ca') in 0.019420 seconds 
+  Import took 0.027156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048853 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(fea9f905841e18a43adf2b1d947709f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(fea9f905841e18a43adf2b1d947709f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c678c2043a8bce89f3275b8eb7f0a2') in 0.037407 seconds 
+  Import took 0.044158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.157023 seconds.
+  path: Assets/XR/Loaders
+  artifactKey: Guid(135e3500efa9fe04282dbe593a6a06cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders using Guid(135e3500efa9fe04282dbe593a6a06cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b9d9673b1b89cb49eeb4761818fdf3') in 0.020151 seconds 
+  Import took 0.027668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052564 seconds.
+  path: Assets/XR/Loaders/Oculus Loader.asset
+  artifactKey: Guid(725180f906708944fb8bf0c1ddb91599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Oculus Loader.asset using Guid(725180f906708944fb8bf0c1ddb91599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5c3427c96e51920385db9e1d19bd64') in 0.016010 seconds 
+  Import took 0.025319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.206412 seconds.
+  path: Assets/XR/Settings
+  artifactKey: Guid(74e85f9a773556d4fb5022496d971147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings using Guid(74e85f9a773556d4fb5022496d971147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f252ae7eaa69ed2bad311c3334624e4d') in 0.016346 seconds 
+  Import took 0.022390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094715 seconds.
+  path: Assets/XR/Settings/Oculus Settings.asset
+  artifactKey: Guid(49c704b62e72a60438e27e921c0d1ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Oculus Settings.asset using Guid(49c704b62e72a60438e27e921c0d1ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2af4dd5c45d27cdd0219ff2027b57f') in 0.018508 seconds 
+  Import took 0.024859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.818534 seconds.
+  path: Assets/Humanoid_Avatar
+  artifactKey: Guid(eb62a80393165384b89e5e16153df582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar using Guid(eb62a80393165384b89e5e16153df582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f606780c5efc12ed2796b71c2ce3fd74') in 0.010859 seconds 
+  Import took 0.018519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.737613 seconds.
+  path: Assets/Humanoid_Avatar/Animations
+  artifactKey: Guid(3343ceaa9c41dab49b9cead0ee65aad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Animations using Guid(3343ceaa9c41dab49b9cead0ee65aad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcd7300fe5d79ddea7b5c707fe7c128') in 0.014089 seconds 
+  Import took 0.021447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036314 seconds.
+  path: Assets/Humanoid_Avatar/Animations/F@Dead.fbx
+  artifactKey: Guid(0ed5bc2ac756bc84fa7b3f114f30a52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Animations/F@Dead.fbx using Guid(0ed5bc2ac756bc84fa7b3f114f30a52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b9473223b6d26ed763369479c62c07') in 1.035045 seconds 
+  Import took 1.044946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Humanoid_Avatar/Animations/F@idle3.fbx
+  artifactKey: Guid(2bef1336663d7e34ba82010bdf5c24b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Animations/F@idle3.fbx using Guid(2bef1336663d7e34ba82010bdf5c24b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046644b9af0c83c17b9f783edb7ce2ac') in 0.111153 seconds 
+  Import took 0.119508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Humanoid_Avatar/Animations/F@idle4.fbx
+  artifactKey: Guid(b95e8935810191e408d4a476b4bb265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Animations/F@idle4.fbx using Guid(b95e8935810191e408d4a476b4bb265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4d881d638ff77d73769f83516d265b') in 0.113552 seconds 
+  Import took 0.122999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Humanoid_Avatar/Animations/F@Walk_B.fbx
+  artifactKey: Guid(75e5846ac2d6d594386f1d17a9aedbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Animations/F@Walk_B.fbx using Guid(75e5846ac2d6d594386f1d17a9aedbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a9f54c9bc71ed95b4c5d96ea836fcd') in 0.113465 seconds 
+  Import took 0.121722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Humanoid_Avatar/Animations/F@Run_F.fbx
+  artifactKey: Guid(b9c3a9376027e96478b4aa7d3688a434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Animations/F@Run_F.fbx using Guid(b9c3a9376027e96478b4aa7d3688a434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660104d151abb28b8c3515133f1530f4') in 0.119344 seconds 
+  Import took 0.129920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Humanoid_Avatar/Animations/F@explosion.fbx
+  artifactKey: Guid(3a549e18e89c94144a4a7fafd475365e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Animations/F@explosion.fbx using Guid(3a549e18e89c94144a4a7fafd475365e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0730bd31644e3ebe06f111efce460fe') in 0.118287 seconds 
+  Import took 0.127913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Humanoid_Avatar/Animations/F@Pose_to_Run_F.fbx
+  artifactKey: Guid(4523ba9a7f7c3ea4481069e34181810d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Animations/F@Pose_to_Run_F.fbx using Guid(4523ba9a7f7c3ea4481069e34181810d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf58931774eae237515156f3860554e') in 0.114504 seconds 
+  Import took 0.121760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Humanoid_Avatar/Animations/F@Pose_to_Walk_F.fbx
+  artifactKey: Guid(5df9de9c9b4d0094ab738475e9b37782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Animations/F@Pose_to_Walk_F.fbx using Guid(5df9de9c9b4d0094ab738475e9b37782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322934236719a81ceaa5c39476b7e477') in 0.114347 seconds 
+  Import took 0.121305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Humanoid_Avatar/Animations/F@walk.fbx
+  artifactKey: Guid(e68fec79569de2142ad92b22437df37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Animations/F@walk.fbx using Guid(e68fec79569de2142ad92b22437df37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f05c3c5a6f2e4b5eeef9b05fb82eae') in 0.119649 seconds 
+  Import took 0.127535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Humanoid_Avatar/Animations/F@Walk_F.fbx
+  artifactKey: Guid(625e14ba0266f3244ac46e9e0811279d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Animations/F@Walk_F.fbx using Guid(625e14ba0266f3244ac46e9e0811279d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4256c313d41da878bcd79705116ef71') in 0.135691 seconds 
+  Import took 0.147350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Humanoid_Avatar/Animations/F@idle.fbx
+  artifactKey: Guid(4d1acc3e6e983b64a9e4256cf69f37d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Animations/F@idle.fbx using Guid(4d1acc3e6e983b64a9e4256cf69f37d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3845d661ccf0637ecde35517f5a5958') in 0.125619 seconds 
+  Import took 0.135870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Humanoid_Avatar/Animations/F@Run_R.fbx
+  artifactKey: Guid(4a72557c92508424d940bc235561cb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Animations/F@Run_R.fbx using Guid(4a72557c92508424d940bc235561cb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1187ecce0c89ad83ad48d59f4f33580') in 0.138068 seconds 
+  Import took 0.146724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.009040 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/BaseHumanoidBotAvatar_Tpose.fbx
+  artifactKey: Guid(0fb80be089349cb44a7d5c9c9171f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/BaseHumanoidBotAvatar_Tpose.fbx using Guid(0fb80be089349cb44a7d5c9c9171f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17f33ec5562ffb2ea1860d861d435cd') in 0.072968 seconds 
+  Import took 0.080874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo 7_.mat
+  artifactKey: Guid(6194cf9b3ef200f44a2c9161c23000ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo 7_.mat using Guid(6194cf9b3ef200f44a2c9161c23000ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542e7f18803b74324d1f404c19c6fc9b') in 0.166553 seconds 
+  Import took 0.173065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo 7 _02.mat
+  artifactKey: Guid(1a4875bbf10ab944e99c5fe57bd162a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo 7 _02.mat using Guid(1a4875bbf10ab944e99c5fe57bd162a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1252c47a211153b1834264a2e36ec8') in 0.040442 seconds 
+  Import took 0.046388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo 7 _03.mat
+  artifactKey: Guid(85e7993fbf21c404384e96f6f806b4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo 7 _03.mat using Guid(85e7993fbf21c404384e96f6f806b4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72973d384064568629e8703b3131590e') in 0.057122 seconds 
+  Import took 0.064763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo 7 _03.png
+  artifactKey: Guid(4a370633c7340654d9cecbaadfea9a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo 7 _03.png using Guid(4a370633c7340654d9cecbaadfea9a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3aa95057a55dc27fa3a0da1592e3f8d') in 0.163321 seconds 
+  Import took 0.173516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo_007.mat
+  artifactKey: Guid(c787b1340d9aa3f4da70d33087dca460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo_007.mat using Guid(c787b1340d9aa3f4da70d33087dca460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d7b71362624601fa98d45f8fe50492') in 0.092577 seconds 
+  Import took 0.101140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/HumanoidBotAvatar_02.prefab
+  artifactKey: Guid(e31b506459774f04eaa959ff0298bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/HumanoidBotAvatar_02.prefab using Guid(e31b506459774f04eaa959ff0298bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcbd187b041e7fe0614fcc840a034db') in 0.117641 seconds 
+  Import took 0.128567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo 8 _03.mat
+  artifactKey: Guid(47064faf9f3dd1e4ab5b1c7561d825fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo 8 _03.mat using Guid(47064faf9f3dd1e4ab5b1c7561d825fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7aefae96866862df76f14ac79f19bf4') in 0.094626 seconds 
+  Import took 0.100904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Plane.mat
+  artifactKey: Guid(c7134bad2eb1fc44da4293b449eac434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Plane.mat using Guid(c7134bad2eb1fc44da4293b449eac434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7cb16a5e7e42d915fb0ff37bbba3cf') in 0.090448 seconds 
+  Import took 0.098251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo 7 _02.png
+  artifactKey: Guid(59822124ffb1b7b4dab43b04c11d73a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo 7 _02.png using Guid(59822124ffb1b7b4dab43b04c11d73a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4327f306283f60fb08e42076c8080889') in 0.072549 seconds 
+  Import took 0.084316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/HumanoidBotAvatar_04.prefab
+  artifactKey: Guid(bbd0dff34b657a64bbab327c41bb1d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/HumanoidBotAvatar_04.prefab using Guid(bbd0dff34b657a64bbab327c41bb1d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d662c5e010ee96d3b7538b1d75c32d0') in 0.083605 seconds 
+  Import took 0.094858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo 8 _04.mat
+  artifactKey: Guid(8dbd74c88b7e6fb41ae5cffc26443a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo 8 _04.mat using Guid(8dbd74c88b7e6fb41ae5cffc26443a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e62076ab62524ee97eed51406633729') in 0.087107 seconds 
+  Import took 0.096112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/HumanoidBotAvatar_03.prefab
+  artifactKey: Guid(cb28edc837cc0b142bf0363416279671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/HumanoidBotAvatar_03.prefab using Guid(cb28edc837cc0b142bf0363416279671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28e0d0deb6ac61ff3e7940966f21120') in 0.081800 seconds 
+  Import took 0.091142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo 8 _03.png
+  artifactKey: Guid(d5d248b6a620f944e90ad63bc857cac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo 8 _03.png using Guid(d5d248b6a620f944e90ad63bc857cac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a384ee1769eef9cd82ff3e6dab9431') in 0.039325 seconds 
+  Import took 0.047662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo 8 _04.png
+  artifactKey: Guid(8cf84dbc9ac2bd345b001c43fb516f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo 8 _04.png using Guid(8cf84dbc9ac2bd345b001c43fb516f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a0638a5a0397882f0514b6a0702f00') in 0.041031 seconds 
+  Import took 0.051644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo_007.png
+  artifactKey: Guid(25699bd639fe6234198b2c5ea7d6d176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo_007.png using Guid(25699bd639fe6234198b2c5ea7d6d176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c216aa1039afdcdcf9e1a63af9a278b7') in 0.049542 seconds 
+  Import took 0.064840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002012 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo_0007.png
+  artifactKey: Guid(8694116c45252d74db43833796490917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo_0007.png using Guid(8694116c45252d74db43833796490917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2d96b95a1b1f22e3e7b6dc1023ebc0') in 0.049792 seconds 
+  Import took 0.057987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/HumanoidBotAvatar_01.prefab
+  artifactKey: Guid(a7faa2d06e22c674c97144a6da1edef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/HumanoidBotAvatar_01.prefab using Guid(a7faa2d06e22c674c97144a6da1edef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0231b3fcedd09ee752206de828b2321') in 0.061545 seconds 
+  Import took 0.068961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo 7_.png
+  artifactKey: Guid(20dde97f1c3bcb84884c7da886e67f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo 7_.png using Guid(20dde97f1c3bcb84884c7da886e67f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8130e64292b618857ff8d56e1fe6cd') in 0.027981 seconds 
+  Import took 0.035962 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.393485 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenne\Documents\GitHub\Boxing-VR\Boxing VR\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenne\Documents\GitHub\Boxing-VR\Boxing VR\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.421 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2439ms)
+		BeginReloadAssembly (524ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (51ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (233ms)
+		EndReloadAssembly (1784ms)
+			LoadAssemblies (234ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (516ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (763ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (619ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.64 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2164 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.4 MB.
+System memory in use after: 112.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2692.
+Total: 9.994600 ms (FindLiveObjects: 0.246600 ms CreateObjectMapping: 0.109900 ms MarkObjects: 9.324100 ms  DeleteObjects: 0.312200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.10 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 70.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2692.
+Total: 4.198500 ms (FindLiveObjects: 0.243900 ms CreateObjectMapping: 0.109300 ms MarkObjects: 3.821000 ms  DeleteObjects: 0.023100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 995.874328 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo 7 _03.png
+  artifactKey: Guid(4a370633c7340654d9cecbaadfea9a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo 7 _03.png using Guid(4a370633c7340654d9cecbaadfea9a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfce146e35f7d6beb6d9008f716b2bba') in 0.520668 seconds 
+  Import took 0.526683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo 7 _02.png
+  artifactKey: Guid(59822124ffb1b7b4dab43b04c11d73a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo 7 _02.png using Guid(59822124ffb1b7b4dab43b04c11d73a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0186f20ac99e171bcc15965f5008ac') in 0.129863 seconds 
+  Import took 0.139024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo 8 _03.png
+  artifactKey: Guid(d5d248b6a620f944e90ad63bc857cac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo 8 _03.png using Guid(d5d248b6a620f944e90ad63bc857cac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7dcc7b41f482686e4e5d92e7f6fbe0d') in 0.123776 seconds 
+  Import took 0.130100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo 8 _04.png
+  artifactKey: Guid(8cf84dbc9ac2bd345b001c43fb516f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo 8 _04.png using Guid(8cf84dbc9ac2bd345b001c43fb516f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aab016d3a45d6026cb3684c11ae5329') in 0.105482 seconds 
+  Import took 0.110253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo_007.png
+  artifactKey: Guid(25699bd639fe6234198b2c5ea7d6d176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo_007.png using Guid(25699bd639fe6234198b2c5ea7d6d176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c361967247f2d95dd1a05c9bb5f776c8') in 0.108138 seconds 
+  Import took 0.114056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000811 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo_0007.png
+  artifactKey: Guid(8694116c45252d74db43833796490917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo_0007.png using Guid(8694116c45252d74db43833796490917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45723d05d49555281e6fc85067901226') in 0.111738 seconds 
+  Import took 0.118271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Humanoid_Avatar/Avatar/Rabo 7_.png
+  artifactKey: Guid(20dde97f1c3bcb84884c7da886e67f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid_Avatar/Avatar/Rabo 7_.png using Guid(20dde97f1c3bcb84884c7da886e67f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd390afd00be649bef99aff739a5171ff') in 0.106121 seconds 
+  Import took 0.116578 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.92 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.1 MB.
+System memory in use after: 70.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2692.
+Total: 7.020800 ms (FindLiveObjects: 0.278400 ms CreateObjectMapping: 0.130300 ms MarkObjects: 6.583500 ms  DeleteObjects: 0.027200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 559.516394 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.6/Default Input Actions
+  artifactKey: Guid(89dcb35558743ff48bb9f059721cc49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.6/Default Input Actions using Guid(89dcb35558743ff48bb9f059721cc49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff2c78a51bd84b64e9a84676b0c6746') in 0.023145 seconds 
+  Import took 0.049989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008568 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.6/Default Input Actions
+  artifactKey: Guid(89dcb35558743ff48bb9f059721cc49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.6/Default Input Actions using Guid(89dcb35558743ff48bb9f059721cc49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff2c78a51bd84b64e9a84676b0c6746') in 0.005931 seconds 
+  Import took 0.013176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.869150 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.6/Default Input Actions/XRI Default Continuous Move.preset
+  artifactKey: Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.6/Default Input Actions/XRI Default Continuous Move.preset using Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbcd3ff63fcd09b3be425163d5c9845') in 0.192415 seconds 
+  Import took 0.212109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.6/Default Input Actions/XRI Default Left Controller.preset
+  artifactKey: Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.6/Default Input Actions/XRI Default Left Controller.preset using Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd5147fac95f957b370d29f0afe3119') in 0.036835 seconds 
+  Import took 0.043110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.6/Default Input Actions/XRI Default Snap Turn.preset
+  artifactKey: Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.6/Default Input Actions/XRI Default Snap Turn.preset using Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698c7e2c2901237432c76581133fb1f1') in 0.013752 seconds 
+  Import took 0.017978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.6/Default Input Actions/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.6/Default Input Actions/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3201de3974e44b2aa8870d5d86a50ef') in 0.049703 seconds 
+  Import took 0.056587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.6/Default Input Actions/XRI Default Continuous Turn.preset
+  artifactKey: Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.6/Default Input Actions/XRI Default Continuous Turn.preset using Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e039f96452fb154a4fabce180b317f') in 0.024160 seconds 
+  Import took 0.030048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.6/Default Input Actions/XRI Default Right Controller.preset
+  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.6/Default Input Actions/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c535d499cc3f394b161a582cab7b97') in 0.017112 seconds 
+  Import took 0.024269 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.18 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.33 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.9 MB.
+System memory in use after: 71.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2692.
+Total: 36.910900 ms (FindLiveObjects: 0.409100 ms CreateObjectMapping: 0.231900 ms MarkObjects: 36.164000 ms  DeleteObjects: 0.103900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
