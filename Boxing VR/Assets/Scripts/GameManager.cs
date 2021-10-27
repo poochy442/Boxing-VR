@@ -9,8 +9,6 @@ public class GameManager : MonoBehaviour
   public int startHealth = 100;
   private int currentHealth;
 
-  private bool down = false;
-
   // Start is called before the first frame update
   void Start()
   {

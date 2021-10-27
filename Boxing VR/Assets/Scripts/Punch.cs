@@ -11,6 +11,7 @@ public class Punch : MonoBehaviour
     if (opponent.gameObject.CompareTag("Opponent"))
     {
       FindObjectOfType<GameManager>().Damage(hitDamage);
+      Debug.Log("Rammer");
     }
   }
 }
